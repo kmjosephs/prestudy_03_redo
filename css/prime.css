@@ -1,0 +1,140 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* END reset */
+
+html{
+	height: 100%; /* needed to make the body reach 100% height */
+}
+body{
+	background: url('../imgs/cactii.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+#circle{
+	border-radius:50%;
+	text-align: center;
+	display: block;
+	margin-left: auto; /* These two properties center the image */
+	margin-right: auto;
+}
+
+h1{
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#body-box, main {
+	background-color: rgba(255,255,255, 0.95);
+	width: 800px;
+	margin: 10px auto;
+	padding: 25px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+	moz-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:  2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+	overflow: auto;
+
+	position: absolute; /* these 5 lines center the div in the middle of the page */
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	line-height: 1.5;
+
+}
+
+ ul{
+	list-style-type: none;
+}
+
+h2{
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+
+h4, #blurb{
+	font-style: italic;
+}
+#blurb{
+	text-align: center;
+}
+
+.resume-section{
+	border-top: 1px solid black;
+	
+
+}
+
+#lionbridge, #uofa{
+	border-bottom: 1px solid black;
+}
+
+.social-media ul{
+	text-align: center;
+	padding-top: 10px;
+}
+
+#icons li, #skills li{
+	display: inline;
+}
+
+
